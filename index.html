@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio_bio</title>
+    <style>
+        
+        *{
+            padding: 0%;
+            margin: 0%;
+        }
+        .header
+        {
+            height: 70px;
+            background-color: black;
+        }
+        .title{
+            color: white;
+            margin-left: 300px;
+            font-size: 50px;
+            vertical-align: middle;
+            word-spacing: 20px;
+        }
+        .header a:not(.title){
+            padding: 10px;
+            margin: 10px;
+            color: rgba(78, 133, 236, 0.809);
+            font-size: 20px;
+            text-decoration: none;
+            text-shadow: 3px 3px 10px whitesmoke;
+            font-family: Arial, Helvetica, sans-serif;
+            outline: 3px solid rgb(230, 192, 192);
+            border-radius: 20%;
+            float: right;
+        }
+        .header a:hover:not(.title){
+            background-color: azure;
+            color: blue;
+            text-shadow: 2.5px 2.5px 10px black;
+            outline: 3px solid rgb(78, 133, 236);
+            
+        }
+        .main img{
+            margin-top: 0px;
+            margin-left: 160px;
+            width: 250px;
+            height: 250px;
+            border: 10px solid black;
+            border-radius: 50%;
+        }
+        .main{
+            position: relative;
+        }
+
+        .main .left{
+            background-color: #333;
+            width: 40%;
+            height: 600px;
+        }
+        .main .name{
+            font-size: 40px;
+            padding-left: 160px;
+            color:lightblue;
+            text-decoration: underline;
+            text-decoration-color: goldenrod;
+        }
+        .main .name .r{
+            color: rgb(96, 193, 225);
+        }
+        .main .name .d{
+            color: rgb(96, 193, 225);
+        }
+        .main .right{
+            background-color: #333;
+            width: 60%;
+            position: absolute;
+            left: 40%;
+            bottom: 0.0%;
+            height: 100%;
+        }
+        .main .right .name2{
+            font-size: 25px;
+            color: white;
+            padding-top: 100px;
+
+        }
+        .headsm{
+            color: white;
+            background-color: #333;
+            padding-left: 200px;
+            font-size: 40px;
+
+        }
+        .sm{
+            text-decoration: none;
+            padding-left: 30px;
+            font-size: 30px;
+        }
+        #instagram{
+            color: rgb(255, 20, 228);
+        }
+        #youtube{
+            color: red;
+        }
+        #twitter{
+            color: darkblue;
+        }
+        #facebook{
+            color: rgb(133, 214, 238);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a class="title">Ronik's  PortFolio</a>
+        <a href="#">About Us</a>
+        <a href="#">Contect Us</a>
+        <a href="#">Social Media</a>
+        <a href="#">Home</a>
+    </div>
+    <div class="main">
+        <div class="left">
+           <img src="file:///Users/ronikdhameliya/iCloud%20Drive%20(Archive)/IMG_0689.jpg" alt="RD">
+            <p class="name"><span class="r">R</span>onik
+                            <span class="d">D</span>hameliya </p>
+        </div>
+        <div class="right">
+            <pre class="name2">Heyy...!
+I am a web developer
+you need a web developer to inform me please...
+            </pre>
+        </div>
+      
+    </div>
+    <div class="footer">
+        <p class="pofsm">
+        <h4 class="headsm">Social Media</h4>
+        <a href="#" class="sm" id="facebook">Facebook</a>
+        <a href="#" class="sm" id="instagram">Instagram</a>
+        <a href="#" class="sm" id="youtube">Youtube</a>
+        <a href="#" class="sm" id="twitter">Twitter</a>
+    </p>
+    </div>
+</body>
+</html>
